@@ -1,0 +1,79 @@
+.body-image {
+    width: 275px; 
+    float: left; 
+    margin-right: 15px;}
+
+.plot_image { 
+    width: 350px; 
+    margin-right: 5px;}
+
+.navbar-brand {
+    background-color: teal; 
+    color: white !important; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-weight: bold;
+    padding: 10px;}
+
+.page_title {
+    text-align: center;
+    color: teal; 
+    font-family:'Times New Roman', Times, serif; 
+    font-weight: bold;
+    font-size: 26px;}
+
+.viz_page_title {
+    text-align: center;
+    color: teal; 
+    font-family:'Times New Roman', Times, serif; 
+    font-weight: bold;
+    font-size: 30px;}
+
+.paragraphs {
+    font-size: 15px;}
+
+.table {margin-top: 20px;}
+
+.comparisons_images {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto}
+
+.instructions {
+    font-size: 12px;
+    margin-bottom: 10px;}
+
+.plot_titles {
+    text-align: center; 
+    color:teal; 
+    font-family:'Times New Roman', Times, serif; 
+    font-weight: bold; 
+    font-size: 20px;}
+
+.viz_images { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;}
+
+.main-viz-image {  width: 650px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto}
+
+.viz_titles {    
+    text-align:center;
+    color:teal; 
+    font-family:'Times New Roman', Times, serif; 
+    font-size: 15px;}
+
+@media (max-width: 600px) {   
+    .container-fluid {
+            background-color: teal;}
+    .nav-link {
+            color: white!important;}
+    .navbar-light .navbar-toggler {
+            color: white;
+            border-color: white;}
+    }
+   

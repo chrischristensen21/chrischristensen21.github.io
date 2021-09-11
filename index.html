@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Latititude</title>
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Latitude</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Plots
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="visualizations\max_temp.html">Latitude vs Max Temperature</a></li>
+                  <li><a class="dropdown-item" href="visualizations\humidity.html">Latitude vs Humidity</a></li>
+                  <li><a class="dropdown-item" href="visualizations\cloudiness.html">Latitude vs Cloudiness</a></li>
+                  <li><a class="dropdown-item" href="visualizations\wind_speed.html">Latitude vs Wind Speed</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="comparisons.html">Comparison</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="data.html">Data</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+<div class="container">
+
+  <div class="row">
+
+    <div class="col-md-6">
+
+      <br>
+      <div class="page_title">Weather and Latitude Analysis</div>
+      <hr>
+      <img class="body-image" src="Resources\assets\images\Fig1.png">
+        <div class= "paragraphs">
+          The purpose of this website is to display the results of a weather analysis.
+          <p></p>
+          For the analysis, data from over 500 cities was extracted from OpenWeatherMap API. This data included several different weather-related metrics which included: max temperature, percent cloudiness, wind speed and humidity. The goal of the analysis was to see how these weather metrics are affected as you approach the equator. Once the data was collected, various analyses were performed, and visualizations created using matplotlib.
+          <p></p>
+          The data used to create the visualizations is available to view in the “Data” tab. You can also view a list of each visualization created under the “Plots” drop-down menu. This will take you to an in-depth analysis of each visualization. In addition to the drop-down menu, you can also go straight to your desired analysis by clicking the figure in the visualization area that corresponds to the analysis you would like to view. If you would like to see a side-by-side comparison of each visualization you can view this in the “Comparisons” tab. Finally, may your weather experience be a breeze!
+        </div>
+
+    </div>
+
+    <div class="col-md-6">
+
+      <br>
+
+      <div class="page_title">Visualizations</div>
+      <hr>
+      <div class= "instructions">
+        Click on any plot to get an in-depth analysis.
+        </div>
+      <div class="row 1">
+
+        <div class="col-md-6">
+          <div class="viz_titles">Max Temperature</div>
+          <a href="visualizations\max_temp.html"><img class="viz_images" src="Resources\assets\images\Fig1.png"></a>
+        </div>
+
+        <div class="col-md-6">
+          <div class="viz_titles">Humidity</div>
+          <a href="visualizations\humidity.html"> <img class="viz_images" src="Resources\assets\images\Fig2.png"></a>
+        </div>
+       <div class="row 2">
+
+        <div class="col-md-6">
+          <div class="viz_titles">Cloudiness</div>
+          <a href="visualizations\cloudiness.html"><img class="viz_images" src="Resources\assets\images\Fig3.png"></a>
+        </div>
+    
+        <div class="col-md-6">
+          <div class="viz_titles">Wind Speed</div>
+          <a href="visualizations\wind_speed.html"><img class="viz_images" src="Resources\assets\images\Fig4.png"></a>
+        </div>
+
+    </div>
+
+  </div>
+
+
+</div>
+
+
+</body>
+
+</html>
